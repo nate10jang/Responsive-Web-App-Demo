@@ -1,3 +1,5 @@
-<div class="h-full flex flex-col">
-	<div class="bg-slate-700 flex flex-col w-10 h-full"></div>
+<div class="fixed top-0 left-0 h-screen">
+	<div class="flex flex-col pt-16">
+
+	</div>
 </div>
