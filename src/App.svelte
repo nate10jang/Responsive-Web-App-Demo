@@ -5,5 +5,7 @@
 </script>
 
 <NavigationBar />
-<Sidebar />
-<Content />
+<div class="flex flex-wrap">
+	<Sidebar />
+	<Content />
+</div>
