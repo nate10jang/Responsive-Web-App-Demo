@@ -1,2 +1,3 @@
-<aside class="h-screen overflow-auto w-60 p-5 bg-zinc-800">
+<aside class="fixed top-16 left-0 w-48 h-screen bg-zinc-700">
+	<p>Hello World!</p>
 </aside>
