@@ -39,7 +39,26 @@
 </header>
 
 <div class="fixed top-0 right-0 h-screen w-60 bg-zinc-800 {sideNavVisible ? 'visible' : 'invisible'}">
-	<button class="top-0 right-0 text-white text-4xl" on:click={toggleSideNavbar}>
+	<button class="top-0 right-0 text-white text-5xl" on:click={toggleSideNavbar}>
 		&times;
 	</button>
+
+	<ul class="list-none flex-col">
+		<li>
+			<a href="#" class="text-white p-3 font-medium text-xl">Home</a>
+		</li>
+		<li>
+			<a href="#" class="text-white p-3 font-medium text-xl">About</a>
+		</li>
+		<li>
+			<a href="#" class="text-white p-3 font-medium text-xl"
+				>Services</a
+			>
+		</li>
+		<li>
+			<a href="#" class="text-white p-3 font-medium text-xl"
+				>Contact</a
+			>
+		</li>
+	</ul>
 </div>
